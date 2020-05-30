@@ -11,11 +11,11 @@
 *
 */
 
-exports.server = 'localhost';
+exports.server = 'pokedreams5.glitch.me-80.psim.us';
 
 exports.port = 8000;
 
-exports.serverid = 'localhost';
+exports.serverid = 'pokedreams5.glitch.me-80.psim.us';
 
 exports.autoReconnectDelay = 10 * 1000;
 exports.connectionTimeout = 2 * 60 * 1000;
@@ -44,9 +44,9 @@ exports.watchconfig = true;
 * Login Details
 */
 
-exports.nick = '';
+exports.nick = 'PokeDreamz';
 
-exports.pass = '';
+exports.pass = 'pokedreams';
 
 exports.autoReloginDelay = 60 * 1000;
 
@@ -54,7 +54,7 @@ exports.autoReloginDelay = 60 * 1000;
 * Rooms to join
 */
 
-exports.rooms = ['lobby'];
+exports.rooms = ['all'];
 
 /*
 * exports.rooms = 'all'; //For joining all rooms
@@ -134,7 +134,7 @@ exports.pmhelp = "Hi #USER! I am a robot, please PM another staff member if you 
 * Language configuration
 */
 
-exports.language = 'english';
+exports.language = 'spanish';
 
 /*
 * Configuration for console messages
@@ -178,7 +178,7 @@ exports.moderation = {
 	disableModNote: false,
 
 	MOD_CONSTS: {
-		FLOOD_MESSAGE_NUM: 5,
+		FLOOD_MESSAGE_NUM: 8,
 		FLOOD_PER_MSG_MIN: 500, // this is the minimum time between messages for legitimate spam. It's used to determine what "flooding" is caused by lag
 		FLOOD_MESSAGE_TIME: 6 * 1000,
 
