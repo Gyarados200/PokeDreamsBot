@@ -13,7 +13,7 @@
 
 exports.server = 'pokedreams5.glitch.me-80.psim.us';
 
-exports.port = 8000;
+exports.port = 80;
 
 exports.serverid = 'pokedreams5.glitch.me-80.psim.us';
 
@@ -54,7 +54,7 @@ exports.autoReloginDelay = 60 * 1000;
 * Rooms to join
 */
 
-exports.rooms = ['all'];
+exports.rooms = ['lobby'];
 
 /*
 * exports.rooms = 'all'; //For joining all rooms
